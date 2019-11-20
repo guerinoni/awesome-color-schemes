@@ -61,7 +61,7 @@
   <style name="WarningContext" foreground="#ffffff" background="#282c34" underlineColor="#b58900" underlineStyle="DotLine"/>
   <style name="Error" foreground="#ffffff" background="#282c34" underlineColor="#dc322f" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" foreground="#ffffff" background="#282c34" underlineColor="#dc322f" underlineStyle="DotLine"/>
-  <style name="Declaration" foreground="#ffffff" background="#282c34"/>
-  <style name="FunctionDefinition" foreground="#ffffff" background="#282c34"/>
+  <style name="Declaration" foreground="#61afef" background="#282c34"/>
+  <style name="FunctionDefinition" foreground="#61afef" background="#282c34"/>
   <style name="OutputArgument" foreground="#ffffff" background="#282c34"/>
 </style-scheme>
