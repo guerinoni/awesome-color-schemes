@@ -21,7 +21,7 @@
   <style name="Global" foreground="#ffffff" background="#282c34"/>
   <style name="Field" foreground="#e06c75" background="#282c34"/>
   <style name="Static" foreground="#e5c07b" background="#282c34"/>
-  <style name="VirtualMethod" foreground="#61afef" background="#282c34"/>
+  <style name="VirtualMethod" foreground="#61afef" background="#282c34" italic="true"/>
   <style name="Function" foreground="#61afef" background="#282c34"/>
   <style name="Keyword" foreground="#c678dd" background="#282c34"/>
   <style name="PrimitiveType" foreground="#c678dd" background="#282c34"/>
