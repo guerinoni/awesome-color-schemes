@@ -36,7 +36,7 @@
   <style name="VisualWhitespace" foreground="#ffffff" background="#282c34"/>
   <style name="QmlLocalId" foreground="#ffffff" background="#282c34"/>
   <style name="QmlExternalId" foreground="#ffffff" background="#282c34"/>
-  <style name="QmlTypeId" foreground="#ffffff" background="#282c34"/>
+  <style name="QmlTypeId" foreground="#e5c07b" background="#282c34"/>
   <style name="QmlRootObjectProperty" foreground="#ffffff" background="#282c34"/>
   <style name="QmlScopeObjectProperty" foreground="#ffffff" background="#282c34"/>
   <style name="QmlExternalObjectProperty" foreground="#ffffff" background="#282c34"/>
