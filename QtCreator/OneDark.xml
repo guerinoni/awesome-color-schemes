@@ -41,7 +41,7 @@
   <style name="QmlScopeObjectProperty" foreground="#ffffff" background="#282c34"/>
   <style name="QmlExternalObjectProperty" foreground="#ffffff" background="#282c34"/>
   <style name="JsScopeVar" foreground="#ffffff" background="#282c34"/>
-  <style name="JsImportVar" foreground="#ffffff" background="#282c34"/>
+  <style name="JsImportVar" foreground="#c678dd" background="#282c34"/>
   <style name="JsGlobalVar" foreground="#ffffff" background="#282c34"/>
   <style name="QmlStateName" foreground="#ffffff" background="#282c34"/>
   <style name="Binding" foreground="#ffffff" background="#282c34"/>
