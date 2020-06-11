@@ -5,7 +5,7 @@
 Collection of color schemes for some IDE or other productivity tools.
 
 ## QtCreator
-Install QtCreator color schemes
+Install QtCreator color schemes (requires module requests installed with pip)
 ```
 > python3 ./scripts/install-QtCreator-schemes.py
 ```
