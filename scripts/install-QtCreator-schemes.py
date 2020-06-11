@@ -10,6 +10,9 @@ def schemeDir():
     if platform == "linux" or platform == "linux2":
         dir = str(Path.home()) + "/.config/QtProject/qtcreator/styles/"
 
+    if platform == "win32":
+        dir = "C:\Qt\Tools\QtCreator\share\qtcreator\styles\\"
+
     return dir;
 
 
