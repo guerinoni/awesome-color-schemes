@@ -17,9 +17,6 @@ def schemeDir():
 
 
 def copy(filename):
-    if not os.path.exists(schemeDir()):
-        os.mkdir(schemeDir())
-
     copyfile(filename, schemeDir() + os.path.basename(filename))
 
 
@@ -39,10 +36,17 @@ def install(filename):
         download(filename)
 
 
+def checkStylesDir():
+    if not os.path.exists(schemeDir()):
+        print("styles not exists")
+        os.mkdir(schemeDir())
+
+
 def main():
     print("installing QtCreator color schemes...")
+    checkStylesDir()
     QtCreatorPath = "./QtCreator/"
-    (_, _, filenames) = next(os.walk(QtCreatorPath))
+    (_, _, filenames) = next(os.walk(QtCreatorPath))    
     for item in filenames:
         install(QtCreatorPath + item)
 
