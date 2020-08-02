@@ -13,7 +13,7 @@ def schemeDir():
         dir = str(Path.home()) + "/.config/QtProject/QtCreator/styles/"
     if platform == "win32":
         dir = "C:\Qt\Tools\QtCreator\share\qtcreator\styles\\"
-	
+
     return dir;
 
 
